@@ -5,7 +5,7 @@ int main(void){
 	
 		FILE *fptr;
 		char ch;
-		fptr=fopen("C:\\Users\\user\\Desktop\\data.txt","r");
+		fptr=fopen("data.txt","r");
 		if(fptr!=NULL){
 			while((ch=getc(fptr))!=EOF){  //bug出現的地方 
 				
